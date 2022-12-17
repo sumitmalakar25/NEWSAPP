@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.newsapp.ui.abc.HomeFragment"
+        android:label="ABC NEWS"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.newsapp.ui.gallery.GalleryFragment"
+        android:label="CBS NEWS"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.newsapp.ui.slideshow.SlideshowFragment"
+        android:label="CNN NEWS"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/sevenNewsFragment"
+        android:name="com.example.newsapp.Fragments.SevenNewsFragment"
+        android:label="SEVEN NEWS"
+        tools:layout="@layout/fragment_seven_news" />
+    <fragment
+        android:id="@+id/bbcNewsFragment"
+        android:name="com.example.newsapp.Fragments.BbcNewsFragment"
+        android:label="BBC NEWS"
+        tools:layout="@layout/fragment_bbc_news" />
+    <fragment
+        android:id="@+id/nbcNewsFragment"
+        android:name="com.example.newsapp.Fragments.NbcNewsFragment"
+        android:label="NBC NEWS"
+        tools:layout="@layout/fragment_nbc_news" />
+</navigation>
